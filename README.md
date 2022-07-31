@@ -2,9 +2,10 @@
 Discover the trends of Cryptocurrency and convince the firm to invest in the new currencies.
 
 ## Overview of the Analysis
-In this analysis, we will be using an unsupervised learning algorithm the difference between unsupervised and supervised is in supervised, the input data already has a paired outcome, which is plugged in to train the model to predict outcomes in new datasets. In unsupervised learning, there are no paired inputs and outputs, The model uses a whole dataset as input. Unsupervised learning is used in one of the following two ways:
-Transform the data to create an intuitive representation for analysis or to use in another machine learning model, or 
-Cluster or determine patterns in a grouping of data rather than to predict a classification. 
+In this analysis, we will be using an unsupervised learning algorithm the difference between unsupervised and supervised is in supervised, the input data already has a paired outcome, which is plugged in to train the model to predict outcomes in new datasets. In unsupervised learning, there are no paired inputs and outputs, The model uses a whole dataset as input.<br> 
+Unsupervised learning is used in one of the following two ways:<br>
+Transform the data to create an intuitive representation for analysis or to use in another machine learning model, or <br>
+Cluster or determine patterns in a grouping of data rather than to predict a classification.<br>
 Before moving data to the unsupervised algorithms, we need to prepare the data by doing the following steps Data selection, Data processing, and Data transformation. Then we will use the algorithms on the data. Clustering is a type of unsupervised learning that groups data points together. This group of data points is called a cluster. One of the most popular ways to cluster is using the K-means algorithm. K-means is an unsupervised learning algorithm used to identify and solve clustering issues. K represents how many clusters there will be. These clusters are then determined by means of all the points that will belong to the cluster. The elbow curve is an easy method for determining the best number for K. Elbow curves get their names from their shape: they turn on a specific value, which looks a bit like an elbow.PCA is a statistical technique to speed up machine learning algorithms when the number of input features (or dimensions) is too high. PCA reduces the number of dimensions by transforming a large set of variables into a smaller one that contains most of the information in the original large set.
 
 ## Purpose of the Analysis
