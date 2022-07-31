@@ -1,29 +1,13 @@
 # Cryptocurrencies
+Discover the trends of Cryptocurrency and convince the firm to invest on the new currencies.
+
 ## Overview of the Analysis
-In supervised learning, the input data already has a paired outcome, which is plugged in to train the model to predict outcomes in new datasets. For example, we want to build a model that, when given unfamiliar data, can accurately predict the outcomes.
-
-In unsupervised learning, there are two key differences from the above approach:
-
-There are no paired inputs and outcomes.
-The model uses a whole dataset as input.
-Unsupervised learning is used in one of the following two ways:
-
-Transform the data to create an intuitive representation for analysis or to use in another machine learning model; or
-Cluster or determine patterns in a grouping of data, rather than to predict a classification.
-Before moving data to our unsupervised algorithms, complete the following steps for preparing data:
-
-Data selection
-Data processing
-Data transformation
-Clustering is a type of unsupervised learning that groups data points together. This group of data points is called a cluster.
-One of the most popular ways to cluster is by using the K-means algorithm.
-K-means is an unsupervised learning algorithm used to identify and solve clustering issues.
-K represents how many clusters there will be. These clusters are then determined by the means of all the points that will belong to the cluster.
-An easy method for determining the best number for K is the elbow curve. Elbow curves get their names from their shape: they turn on a specific value, which looks a bit like an elbow!PCA is a statistical technique to speed up machine learning algorithms when the number of input features (or dimensions) is too high. PCA reduces the number of dimensions by transforming a large set of variables into a smaller one that contains most of the information in the original large set.
-
-
+The Analysis uses unsupervised learning algorithm In supervised learning, the input data already has a paired outcome, which is plugged in to train the model to predict outcomes in new datasets. For example, we want to build a model that, when given unfamiliar data, can accurately predict the outcomes.
+In unsupervised learning, there are two key differences from the above approach they are there are no paired inputs and outcomes,The model uses a whole dataset as input.Unsupervised learning is used in one of the following two ways Transform the data to create an intuitive representation for analysis or to use in another machine learning model; or Cluster or determine patterns in a grouping of data, rather than to predict a classification.
+Before moving data to the unsupervised algorithms, we need to prepare the data by doing the following steps Data selection,Data processing and Data transformation.Then we will use the algorithms.Clustering is a type of unsupervised learning that groups data points together. This group of data points is called a cluster.One of the most popular ways to cluster is by using the K-means algorithm.K-means is an unsupervised learning algorithm used to identify and solve clustering issues.K represents how many clusters there will be. These clusters are then determined by the means of all the points that will belong to the cluster.An easy method for determining the best number for K is the elbow curve. Elbow curves get their names from their shape: they turn on a specific value, which looks a bit like an elbow.PCA is a statistical technique to speed up machine learning algorithms when the number of input features (or dimensions) is too high. PCA reduces the number of dimensions by transforming a large set of variables into a smaller one that contains most of the information in the original large set.
 
 ## Purpose of the Analysis
+The popularity of Bitcoin caused a price jump that makes it unaffordable for many new investors.However there are many cryptocurrencies available at affordable prices.We will analyze the trends of Cryptocurrency using unsupervised machine learning algorithms.Unsupervised machine learning is used when there is known output.It is used to discover the patterns or groups in data.It uses only input data.
 
 ## Resources Used
 *DataSources*:  [crypto_data.csv](https://github.com/fathi129/Cryptocurrencies/blob/master/Resources/crypto_data.csv)<br>
