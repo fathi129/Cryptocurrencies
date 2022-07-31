@@ -38,7 +38,7 @@ Added the CoinName and Algorithm columns to the hover_name and hover_data parame
 Created a table with tradable cryptocurrencies using the hvplot.table() function.The table looks like the table in the image below:
 <img src = "https://github.com/fathi129/Cryptocurrencies/blob/master/Screenshots%20of%20Cryptocurrency/del4_hvplot.png"  width = 800><br>
 Printed the total number of tradable cryptocurrencies in the clustered_df DataFrame.
-<img src = ""  width = 600><br>
+<img src = "https://github.com/fathi129/Cryptocurrencies/blob/master/Screenshots%20of%20Cryptocurrency/del4_printcount.png"  width = 600><br>
 Used the MinMaxScaler().fit_transform method to scale the TotalCoinSupply and TotalCoinsMined columns between the given range of zero and one.
 Created a new DataFrame using the clustered_df DataFrame index that contains the scaled data we created.Added the CoinName column from the clustered_df DataFrame to the new DataFrame.Added the Class column from the clustered_df DataFrame to the new DataFrame.The new DataFrame looks similar to the image below:
 <img src = "https://github.com/fathi129/Cryptocurrencies/blob/master/Screenshots%20of%20Cryptocurrency/del4_Plot_df.png"  width = 600><br>
