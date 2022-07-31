@@ -20,11 +20,11 @@ Using the get_dummies() method created variables for the two text features, Algo
 ### Deliverable 2: Reducing Data Dimensions Using PCA
 Using the knowledge of how to apply the Principal Component Analysis (PCA) algorithm, we will reduce the dimensions of the X DataFrame to three principal components and place these dimensions in a new DataFrame.Created a new DataFrame named pcs_df that includes the following columns, PC 1, PC 2, and PC 3, and used the index of the crypto_df DataFrame as the index.
 The pcs_df DataFrame should look like the image below:<br>
-<img src = "https://github.com/fathi129/Cryptocurrencies/blob/master/Screenshots%20of%20Cryptocurrency/Deliverable2_pcs_df.png"  width = 500><br>
+<img src = "https://github.com/fathi129/Cryptocurrencies/blob/master/Screenshots%20of%20Cryptocurrency/Deliverable2_pcs_df.png"  width = 400><br>
 
 ### Deliverable 3: Clustering Cryptocurrencies Using K-means
 Using the K-means algorithm, we will create an elbow curve using hvPlot to find the best value for K from the pcs_df DataFrame created.Then, we will run the K-means algorithm to predict the K clusters for the cryptocurrencies data.Using the pcs_df DataFrame, created an elbow curve using hvPlot to find the best value for K.<br>
-<img src = "https://github.com/fathi129/Cryptocurrencies/blob/master/Screenshots%20of%20Cryptocurrency/del3_Elbow_curve.png"  width = 700><br>
+<img src = "https://github.com/fathi129/Cryptocurrencies/blob/master/Screenshots%20of%20Cryptocurrency/del3_Elbow_curve.png"  width = 800><br>
 Next, we will use the pcs_df DataFrame to run the K-means algorithm to make predictions of the K clusters for the cryptocurrencies’ data.
 Created a new DataFrame named clustered_df by concatenating the crypto_df and pcs_df DataFrames on the same columns. The index is same as the crypto_df DataFrame.Added the CoinName column that holds the names of the cryptocurrencies, which we created already to the clustered_df.Added another new column to the clustered_df named Class that holds the predictions, i.e.,model.labels_.
 The clustered_df DataFrame should look like the image below:<br>
@@ -34,9 +34,9 @@ The clustered_df DataFrame should look like the image below:<br>
 The scatter plots has been created using with Plotly Express and hvplot, we will visualize the distinct groups that correspond to the three principal components we created in Deliverable 2, then we will create a table with all the currently tradable cryptocurrencies using the hvplot.table() function.
 Created a 3D scatter plot using the Plotly Express scatter_3d() function to plot the three clusters from the clustered_df DataFrame.
 Added the CoinName and Algorithm columns to the hover_name and hover_data parameters, respectively, so each data point shows the CoinName and Algorithm on hover.<br>
-<img src = "https://github.com/fathi129/Cryptocurrencies/blob/master/Screenshots%20of%20Cryptocurrency/del4_3DScatterPlot.png"  width = 700><br>
+<img src = "https://github.com/fathi129/Cryptocurrencies/blob/master/Screenshots%20of%20Cryptocurrency/del4_3DScatterPlot.png"  width = 800><br>
 Created a table with tradable cryptocurrencies using the hvplot.table() function.The table looks like the table in the image below:
-<img src = "https://github.com/fathi129/Cryptocurrencies/blob/master/Screenshots%20of%20Cryptocurrency/del4_hvplot.png"  width = 700><br>
+<img src = "https://github.com/fathi129/Cryptocurrencies/blob/master/Screenshots%20of%20Cryptocurrency/del4_hvplot.png"  width = 800><br>
 Printed the total number of tradable cryptocurrencies in the clustered_df DataFrame.
 <img src = ""  width = 600><br>
 Used the MinMaxScaler().fit_transform method to scale the TotalCoinSupply and TotalCoinsMined columns between the given range of zero and one.
