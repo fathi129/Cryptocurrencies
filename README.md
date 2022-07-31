@@ -1,5 +1,28 @@
 # Cryptocurrencies
 ## Overview of the Analysis
+In supervised learning, the input data already has a paired outcome, which is plugged in to train the model to predict outcomes in new datasets. For example, we want to build a model that, when given unfamiliar data, can accurately predict the outcomes.
+
+In unsupervised learning, there are two key differences from the above approach:
+
+There are no paired inputs and outcomes.
+The model uses a whole dataset as input.
+Unsupervised learning is used in one of the following two ways:
+
+Transform the data to create an intuitive representation for analysis or to use in another machine learning model; or
+Cluster or determine patterns in a grouping of data, rather than to predict a classification.
+Before moving data to our unsupervised algorithms, complete the following steps for preparing data:
+
+Data selection
+Data processing
+Data transformation
+Clustering is a type of unsupervised learning that groups data points together. This group of data points is called a cluster.
+One of the most popular ways to cluster is by using the K-means algorithm.
+K-means is an unsupervised learning algorithm used to identify and solve clustering issues.
+K represents how many clusters there will be. These clusters are then determined by the means of all the points that will belong to the cluster.
+An easy method for determining the best number for K is the elbow curve. Elbow curves get their names from their shape: they turn on a specific value, which looks a bit like an elbow!PCA is a statistical technique to speed up machine learning algorithms when the number of input features (or dimensions) is too high. PCA reduces the number of dimensions by transforming a large set of variables into a smaller one that contains most of the information in the original large set.
+
+
+
 ## Purpose of the Analysis
 
 ## Resources Used
