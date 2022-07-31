@@ -31,7 +31,7 @@ The clustered_df DataFrame should look like the image below:<br>
 <img src = "https://github.com/fathi129/Cryptocurrencies/blob/master/Screenshots%20of%20Cryptocurrency/del3_Clustered_df.png"  width = 700><br>
 
 ### Deliverable 4: Visualizing Cryptocurrencies Results
-The scatter plots has been created using with Plotly Express and hvplot, we will visualize the distinct groups that correspond to the three principal components we created in Deliverable 2, then we will create a table with all the currently tradable cryptocurrencies using the hvplot.table() function.
+The scatter plots has been created using with Plotly Express and hvplot, we will visualize the distinct groups that correspond to the three principal components we created in Deliverable 2, then we will create a table with all the currently tradable cryptocurrencies using the hvplot.table8) function.
 Created a 3D scatter plot using the Plotly Express scatter_3d() function to plot the three clusters from the clustered_df DataFrame.
 Added the CoinName and Algorithm columns to the hover_name and hover_data parameters, respectively, so each data point shows the CoinName and Algorithm on hover.<br>
 <img src = "https://github.com/fathi129/Cryptocurrencies/blob/master/Screenshots%20of%20Cryptocurrency/del4_3DScatterPlot.png"  width = 800><br>
